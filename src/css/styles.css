@@ -55,7 +55,7 @@ li {
 .card>img {
     width: 100%;
     display: block;
-    height: 300px;
+    height: 450px;
 }
 
 .card {
@@ -91,7 +91,7 @@ card>a {
 }
 
 b {
-    font-size: 40px;
+    font-size: 70px;
     display: block;
     text-align: center;
 
@@ -112,7 +112,7 @@ input {
 
     padding: 10px;
     font-size: 18px;
-    width: 300px;
+    width: 600px;
 
     border: 1px solid rgba(0, 0, 0, 0.1019607843);
     border-radius: 4px;
@@ -124,7 +124,8 @@ button {
     transition: all 250ms;
     cursor: pointer;
     color: #7d7d7d;
-    font-size: 18px;
+    font-size: 20px;
+    padding:0px 20px 0px 20px;
 }
 
 button:hover {
@@ -141,6 +142,7 @@ button:hover {
 .form-wrap {
     display: flex;
     margin-bottom: 20px;
+    height: 60px;
 
     justify-content: center;
 }
