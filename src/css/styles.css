@@ -1,0 +1,146 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+}
+
+ul {
+    padding-left: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    background-color: #cfcfcf
+}
+
+li {
+    padding: 0;
+    bottom: 0;
+    list-style: none;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    margin-bottom: 30px;
+    color: #000000;
+    text-align: center;
+}
+
+
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+
+}
+
+.gallery:not(:last-child) {
+    margin-right: 5px;
+}
+
+.card>img {
+    width: 100%;
+    display: block;
+    height: 300px;
+}
+
+.card {
+    text-decoration: none;
+    color: black;
+}
+
+card>a {
+    text-decoration: none;
+}
+
+
+.big-card {
+    flex-basis: calc((100% - 80px)/4);
+    margin: 10px;
+    transition: box-shadow 250ms
+}
+
+.big-card:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+        0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.card__info {
+    border: 3px solid #e3e2e1;
+
+    background-color: aliceblue;
+
+    padding: 10px 25px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+b {
+    font-size: 40px;
+    display: block;
+    text-align: center;
+
+}
+
+p {
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    font-family: monospace;
+    color: #7d7d7d;
+
+}
+
+input {
+    border: 1px solid #0000001a;
+    border-radius: 4px;
+
+    padding: 10px;
+    font-size: 18px;
+    width: 300px;
+
+    border: 1px solid rgba(0, 0, 0, 0.1019607843);
+    border-radius: 4px;
+}
+
+button {
+    border: 1px solid rgba(0, 0, 0, 0.1019607843);
+    border-radius: 4px;
+    transition: all 250ms;
+    cursor: pointer;
+    color: #7d7d7d;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #7d7d7d;
+    color: white;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+        0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.search-form {
+    display: flex;
+}
+
+.form-wrap {
+    display: flex;
+    margin-bottom: 20px;
+
+    justify-content: center;
+}
