@@ -13,7 +13,10 @@ function createMarcup(data) {
         return `
         <li class = "big-card">
         <a href="${largeImageURL}" class="card pagination__next">
-          <img src="${webformatURL}" alt="${tags}" loading="lazy" />
+        <div class="pfoto-wrap">
+   <img src="${webformatURL}" alt="${tags}" loading="lazy" />
+</div>
+         
           <div class="card__info">
             <div class="card__item">
               <b>❤️‍🔥</b>

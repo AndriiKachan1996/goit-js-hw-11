@@ -52,11 +52,23 @@ li {
     margin-right: 5px;
 }
 
-.card>img {
+
+
+.pfoto-wrap {
     width: 100%;
-    display: block;
-    height: 450px;
+        display: block;
+        height: 450px;
 }
+
+.pfoto-wrap img {
+    width: 100%;
+    height: 100%;
+    display: block;
+
+
+}
+
+
 
 .card {
     text-decoration: none;
@@ -116,6 +128,7 @@ input {
 
     border: 1px solid rgba(0, 0, 0, 0.1019607843);
     border-radius: 4px;
+    font-size: 25px;
 }
 
 button {
